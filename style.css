@@ -248,6 +248,7 @@
 
 /* Hero search part */
 .dis-hero-search {
+  display: none;
   max-width: 570px;
   height: 60px;
   border: 2px solid #6F8DCD;
