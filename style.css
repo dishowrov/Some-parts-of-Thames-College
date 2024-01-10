@@ -1,0 +1,279 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* best selling courses css start  */
+.a2n_bs-card {
+  position: relative;
+  max-width: 370px;
+  width: 100%;
+  height: 162px;
+  border-radius: 5px;
+  border: 1px solid #e5e8ec;
+  background: #fff;
+  padding: 8px 20px 8px 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+.a2n_bs-card .a2n_heading {
+  text-decoration: none;
+  margin-top: 10px;
+  color: #373737;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-transform: capitalize;
+  overflow: hidden;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.a2n_bs-card .a2n_cat {
+  margin: 0;
+  border-radius: 5px;
+  padding: 6px;
+  background: rgba(204, 214, 228, 0.15);
+  color: #373737;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+.a2n_bs-card .a2n_rating_sec {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  margin: 10px 0;
+}
+.a2n_bs-card .a2n_rating_sec p {
+  margin: 0;
+  color: #373737;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+}
+.a2n_bs-card .a2n_footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 7px;
+}
+.a2n_bs-card .a2n_footer_content h4 {
+  margin: 0;
+  color: #1170c0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.a2n_bs-card .a2n_footer_content h4 del {
+  color: rgba(17, 112, 192, 0.3);
+  font-size: 12px;
+  font-weight: 500;
+}
+.a2n_bs-card .a2n_member {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.a2n_bs-card .a2n_member p {
+  margin: 0;
+  color: #3f3b52;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-transform: capitalize;
+}
+.a2n_content_sec {
+  width: 65%;
+}
+.a2n_image_sec {
+  width: 35%;
+  height: 100%;
+  overflow: hidden;
+}
+.a2n_image_sec img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  object-fit: cover;
+}
+.a2n_offer-img {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 72px;
+  height: 72px !important;
+}
+.a2n_cat-items {
+  display: flex;
+  gap: 4px;
+}
+.a2n_bs-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: #c9e9ff;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.a2n_bs-card:hover {
+  background: #f0f9ff;
+}
+.a2n_bs-card:hover .a2n_cat {
+  background: #c9e9ff;
+}
+.a2n_bs-card:hover .a2n_bs-btn {
+  display: flex;
+}
+.a2n_cat:hover {
+  text-decoration: underline;
+}
+/* best selling courses css end  */
+/* best selling tab section start  */
+.a2n_tab-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+.a2n_tab-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.a2n_tab-cat {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.a2n_tab-nav .nav-tabs {
+  border: 0;
+}
+.a2n_tab-nav .a2n_tc-title {
+  margin: 0;
+  color: #3f3b52;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.a2n_tab-nav select#a2n_cat {
+  cursor: pointer;
+  height: 52px;
+  padding: 0px 30px 0 20px;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 7px;
+  border: 1px solid #3f3b52;
+  color: #3f3b52;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+  background-image: url("https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Frame-1000004232.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: auto 14px;
+}
+.a2n_tab-header .nav-tabs > li > a {
+  margin-right: 16px;
+  padding: 0;
+  border-radius: 7px;
+  border: 1px solid #3f3b52;
+  color: #3f3b52;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+  padding: 0 20px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a2n_tab-header .nav-tabs > li.active > a,
+.a2n_tab-header .nav-tabs > li.active > a:focus,
+.a2n_tab-header .nav-tabs > li.active > a:hover {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #0281ee -19.23%, #005195 122.12%);
+}
+.a2n_tab-header .nav-tabs > li:last-child > a {
+  margin: 0;
+}
+@media (max-width: 1145px) {
+  .a2n_tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .a2n_tab-header .nav-tabs > li > a {
+    margin-right: 8px;
+    font-size: 12px;
+    padding: 0 8px;
+    height: 32px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  .a2n_tab-nav .nav-tabs {
+    display: flex;
+    align-items: center;
+  }
+  .a2n_tab-nav .a2n_tc-title {
+    font-size: 14px;
+  }
+  .a2n_tab-nav select#a2n_cat {
+    font-size: 12px;
+    padding: 0 8px;
+    height: 32px;
+  }
+}
+@media (max-width: 376px) {
+  .a2n_bs-card {
+    padding: 6px;
+  }
+  .a2n_bs-card .a2n_cat {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .a2n_bs-card .a2n_heading {
+    margin-top: 8px;
+  }
+  .a2n_bs-card .a2n_rating_sec {
+    margin: 8px 0;
+  }
+  .a2n_bs-card .a2n_footer_content h4 {
+    font-size: 16px;
+  }
+}
+
+/* best selling tab section end  */
