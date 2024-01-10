@@ -18,44 +18,46 @@
   flex-direction: column;
   gap: 12px;
   transition: all 0.3s ease;
-  border-radius:  15px;
-  -webkit-border-radius:  15px;
-  -moz-border-radius:  15px;
-  -ms-border-radius:  15px;
-  -o-border-radius:  15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .dis-bs-card .dis-heading {
-  text-decoration: none;
-  margin-top: 10px;
-  color: #373737;
-  font-family: "Open Sans";
-  font-size: 14px;
+  margin-top: 15px;
+  color: #0E0B33;
+  font-family: Nunito Sans;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 19.6px;
   text-transform: capitalize;
   overflow: hidden;
-  height: 40px;
+  height: 65px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
 .dis-bs-card .dis-cat {
+  text-decoration: none !important;
   margin: 0;
-  border-radius: 5px;
   padding: 6px;
-  background: rgba(204, 214, 228, 0.15);
-  color: #373737;
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16.8px;
-  text-transform: capitalize;
-  transition: all 0.3s ease;
+  background: rgba(204, 214, 228, 0.20);
+  color: #2B354E;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .dis-bs-card .dis-rating_sec {
+  padding-top: 25px;
   display: flex;
   align-items: center;
   column-gap: 7px;
@@ -64,10 +66,10 @@
 
 .dis-bs-card .dis-rating_sec p {
   margin: 0;
-  color: #373737;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 600;
+  color: #2B354E;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .dis-bs-card .dis-footer_content {
@@ -79,16 +81,17 @@
 
 .dis-bs-card .dis-footer_content h4 {
   margin: 0;
-  color: #1170c0;
-  font-family: "Open Sans";
-  font-size: 18px;
+  color: #3569E1;
+  font-family: Nunito Sans;
+  font-size: 32px;
   font-weight: 700;
 }
 
 .dis-bs-card .dis-footer_content h4 del {
-  color: rgba(17, 112, 192, 0.3);
-  font-size: 12px;
-  font-weight: 500;
+  color: rgba(18, 51, 129, 0.40);
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .dis-bs-card .dis-member {
@@ -99,16 +102,14 @@
 
 .dis-bs-card .dis-member p {
   margin: 0;
-  color: #3f3b52;
-  font-family: "Open Sans";
-  font-size: 12px;
+  color: #2B354E;
+  font-family: Nunito;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 16.8px;
-  text-transform: capitalize;
 }
 
 .dis-bs-card .dis-content_sec {
-  padding: 25px;
+  padding: 15px 25px 25px 25px;
 }
 
 .dis-bs-card .dis-image_sec {
