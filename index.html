@@ -4,36 +4,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cambridge</title>
+  <title>Custom filtering of Thames-College</title>
+
   <!-- google fonts here  -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap"
     rel="stylesheet" />
+
   <!-- fontawesome links here  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!--All Css links here  -->
-  <!-- Bootstrap 3.7  -->
+
+  <!-- --------------------------------------All Css links here-----------------------------------------  -->
+  <!-- Bootstrap CSS  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-  <!-- owl carousel css links here  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- custom css  -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
   <!-- Tab section start  -->
-  <div class="a2n_tab-sec">
+  <div class="dis-tab-sec">
     <div class="container">
-      <div class="a2n_tab-header">
-        <div class="a2n_tab-nav">
+      <div class="dis-tab-header">
+        <div class="dis-tab-nav">
           <ul class="nav nav-tabs">
             <li class="active">
               <a data-toggle="tab" href="#topRated">Top Rated</a>
@@ -43,9 +40,9 @@
               <a data-toggle="tab" href="#newReleased">New Released</a>
             </li>
           </ul>
-          <div class="a2n_tab-cat">
-            <h3 class="a2n_tc-title">Category:</h3>
-            <select id="a2n_cat" class="form-control">
+          <div class="dis-tab-cat">
+            <h3 class="dis-tc-title">Category:</h3>
+            <select id="dis-cat" class="form-control">
               <option>All</option>
               <option>Personal Development</option>
               <option>Employability</option>
@@ -56,26 +53,26 @@
       </div>
       <div class="tab-content">
         <div id="topRated" class="tab-pane fade in active">
-          <div class="a2n_tab-container">
+          <div class="dis-tab-container">
             <!--#1 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2020/06/Graphic-Design-Colour-Theory.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Development</a>
-                  <a href="https://cambridgeopenacademy.com/course/diploma-in-graphic-design-2/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/diploma-in-graphic-design-2/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/diploma-in-graphic-design-2/">Diploma in Graphic
                   Design</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -95,9 +92,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -118,25 +115,25 @@
             <!-- #1 best selling course card end  -->
 
             <!-- #2 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Language">
+            <div class="dis-bs-card" data-category="Language">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2017/11/British-Sign-Language.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/language/">Language</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/teaching-education/">Teaching &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/language/">Language</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/teaching-education/">Teaching &
                     Education</a>
-                  <a href="https://cambridgeopenacademy.com/course/british-sign-language-course/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/british-sign-language-course/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/british-sign-language-course/">British Sign Language
                   (BSL) Level 1 & 2</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -156,9 +153,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -179,26 +176,26 @@
             <!-- #2 best selling course card end  -->
 
             <!-- #3 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Employability">
+            <div class="dis-bs-card" data-category="Employability">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2022/10/Certificate-Course-In-Two-Wheeler-Servicing.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
                   <a href="https://cambridgeopenacademy.com/course/certificate-course-in-two-wheeler-servicing-2/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/certificate-course-in-two-wheeler-servicing-2/">Certificate
                   Course In Two Wheeler Servicing</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -218,9 +215,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -241,23 +238,23 @@
             <!-- #3 best selling course card end  -->
 
             <!-- #4 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Leadership">
+            <div class="dis-bs-card" data-category="Leadership">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/01/Web-Cover.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/leadership/">Leadership</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/leadership/">Leadership</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Development</a>
-                  <a href="https://cambridgeopenacademy.com/course/leadership-management/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/leadership-management/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/leadership-management/">Leadership
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/leadership-management/">Leadership
                   & Management</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -277,9 +274,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -300,24 +297,24 @@
             <!-- #4 best selling course card end  -->
 
             <!-- #5 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/01/Web-Cover-1.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
                   <a href="https://cambridgeopenacademy.com/course/diploma-in-medical-secretary-5/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/diploma-in-medical-secretary-5/">Diploma in Medical
                   Secretary</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -337,9 +334,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -360,23 +357,23 @@
             <!-- #5 best selling course card end  -->
 
             <!-- #6 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2019/04/Web-Cover-2.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Development</a>
                   <a href="https://cambridgeopenacademy.com/course/data-entry-administrator-training/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/data-entry-administrator-training/">Data Entry
                   Administrator Training</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -396,9 +393,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -419,22 +416,22 @@
             <!-- #6 best selling course card end  -->
 
             <!-- #7 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Health and Fitness">
+            <div class="dis-bs-card" data-category="Health and Fitness">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/03/Sports-First-Aid.jpg" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
                     Fitness</a>
-                  <a href="https://cambridgeopenacademy.com/course/sports-first-aid-course/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/sports-first-aid-course/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/sports-first-aid-course/">Sports
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/sports-first-aid-course/">Sports
                   First Aid Course</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -454,9 +451,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -477,23 +474,23 @@
             <!-- #7 best selling course card end  -->
 
             <!-- #8 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/03/Web-Cover-3.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
-                  <a href="https://cambridgeopenacademy.com/course/sen-teaching-assistant-2/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/sen-teaching-assistant-2/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/sen-teaching-assistant-2/">SEN
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/sen-teaching-assistant-2/">SEN
                   Teaching Assistant</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -513,9 +510,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -536,24 +533,24 @@
             <!-- #8 best selling course card end  -->
 
             <!-- #9 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2022/03/How-to-Improve-Your-Food-Hygiene-Rating.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Development</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health</a>
-                  <a href="https://cambridgeopenacademy.com/course/food-hygiene-2/" class="a2n_bs-btn"><i
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health</a>
+                  <a href="https://cambridgeopenacademy.com/course/food-hygiene-2/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/food-hygiene-2/">Food Hygiene</a>
-                <div class="a2n_rating_sec">
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/food-hygiene-2/">Food Hygiene</a>
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -573,9 +570,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -598,24 +595,24 @@
         </div>
 
         <div id="mostPopular" class="tab-pane fade">
-          <div class="a2n_tab-container">
+          <div class="dis-tab-container">
             <!-- #1 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Employability">
+            <div class="dis-bs-card" data-category="Employability">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/06/Web-Cover-4.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-care/">Health & Care</a>
-                  <a href="https://cambridgeopenacademy.com/course/disability-assessor/" class="a2n_bs-btn"><i
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-care/">Health & Care</a>
+                  <a href="https://cambridgeopenacademy.com/course/disability-assessor/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/disability-assessor/">Disability
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/disability-assessor/">Disability
                   Assessor</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -635,9 +632,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -658,23 +655,23 @@
             <!-- #1 best selling course card end  -->
 
             <!-- #2 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Health and Fitness">
+            <div class="dis-bs-card" data-category="Health and Fitness">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/08/Web-Cover-5.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
                     Fitness</a>
                   <a href="https://cambridgeopenacademy.com/course/diploma-in-anatomy-and-physiology-of-human-body/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/diploma-in-anatomy-and-physiology-of-human-body/">Diploma
                   in Anatomy and Physiology of Human Body</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -694,9 +691,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -717,25 +714,25 @@
             <!-- #2 best selling course card end  -->
 
             <!-- #3 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Business">
+            <div class="dis-bs-card" data-category="Business">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/10/business-people-working-laptop-meeting-2048x1266.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
                     Marketing</a>
                   <a href="https://cambridgeopenacademy.com/course/microsoft-office-skills-mastering-excel-word-powerpoint-it-cyber-security-2/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/microsoft-office-skills-mastering-excel-word-powerpoint-it-cyber-security-2/">Microsoft
                   Office Skills: Mastering Excel, Word, PowerPoint, IT, & Cyber Security</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -755,9 +752,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -778,22 +775,22 @@
             <!-- #3 best selling course card end  -->
 
             <!-- #4 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Employability">
+            <div class="dis-bs-card" data-category="Employability">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/10/Plumbing-for-Beginners.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a href="https://cambridgeopenacademy.com/course/plumbing-for-beginners/" class="a2n_bs-btn"><i
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a href="https://cambridgeopenacademy.com/course/plumbing-for-beginners/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/plumbing-for-beginners/">Plumbing
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/plumbing-for-beginners/">Plumbing
                   for Beginners Course Online</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -813,9 +810,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -836,23 +833,23 @@
             <!-- #4 best selling course card end  -->
 
             <!-- #5 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/03/Web-Cover-6.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
-                  <a href="https://cambridgeopenacademy.com/course/cctv-operator-course/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/cctv-operator-course/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/cctv-operator-course/">CCTV
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/cctv-operator-course/">CCTV
                   Operator Course</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -872,9 +869,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -895,25 +892,25 @@
             <!-- #5 best selling course card end  -->
 
             <!-- #6 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Health and Fitness">
+            <div class="dis-bs-card" data-category="Health and Fitness">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2021/05/Sports-First-Aid-Sports-Medicine.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
                     Fitness</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-care/">Health & Care</a>
-                  <a href="https://cambridgeopenacademy.com/course/sports-injuries/" class="a2n_bs-btn"><i
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-care/">Health & Care</a>
+                  <a href="https://cambridgeopenacademy.com/course/sports-injuries/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/sports-injuries/">Sports First Aid
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/sports-injuries/">Sports First Aid
                   & Sports Medicine</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -933,9 +930,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -956,23 +953,23 @@
             <!-- #6 best selling course card end  -->
 
             <!-- #7 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Health and Fitness">
+            <div class="dis-bs-card" data-category="Health and Fitness">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/07/Web-Cover-7.png" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/health-and-fitness/">Health and
                     Fitness</a>
-                  <a href="https://cambridgeopenacademy.com/course/aesthetics-skincare-diploma/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/aesthetics-skincare-diploma/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/aesthetics-skincare-diploma/">Aesthetics Skincare
                   Diploma</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -992,9 +989,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1015,24 +1012,24 @@
             <!-- #7 best selling course card end  -->
 
             <!-- #8 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Business">
+            <div class="dis-bs-card" data-category="Business">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/02/Business-Law-1.jpg" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
                     Marketing</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/law/">Law</a>
-                  <a href="https://cambridgeopenacademy.com/course/corporate-governance-law/" class="a2n_bs-btn"><i
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/law/">Law</a>
+                  <a href="https://cambridgeopenacademy.com/course/corporate-governance-law/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/corporate-governance-law/">Corporate Governance and
                   Business Law</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1052,9 +1049,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1075,23 +1072,23 @@
             <!-- #8 best selling course card end  -->
 
             <!-- #9 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Layer_1-2.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2022/04/Pet-Sitting-and-Dog-Walking.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Development</a>
-                  <a href="https://cambridgeopenacademy.com/course/pet-sitting-and-dog-walking-3/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/pet-sitting-and-dog-walking-3/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/pet-sitting-and-dog-walking-3/">Pet
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/pet-sitting-and-dog-walking-3/">Pet
                   Sitting and Dog Walking</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1111,9 +1108,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1136,24 +1133,24 @@
           </div>
         </div>
         <div id="newReleased" class="tab-pane fade">
-          <div class="a2n_tab-container">
+          <div class="dis-tab-container">
             <!-- #1 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Employability">
+            <div class="dis-bs-card" data-category="Employability">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/11/Cleaning-and-Housekeeping-Certificate.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a href="https://cambridgeopenacademy.com/course/housekeeper-2/" class="a2n_bs-btn"><i
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a href="https://cambridgeopenacademy.com/course/housekeeper-2/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/housekeeper-2/">Housekeeper</a>
-                <div class="a2n_rating_sec">
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/housekeeper-2/">Housekeeper</a>
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1173,9 +1170,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1196,25 +1193,25 @@
             <!-- #1 best selling course card end  -->
 
             <!-- #2 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Business">
+            <div class="dis-bs-card" data-category="Business">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/10/business-people-working-laptop-meeting-2048x1266.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/business/">Business &
                     Marketing</a>
                   <a href="https://cambridgeopenacademy.com/course/microsoft-office-skills-mastering-excel-word-powerpoint-it-cyber-security-2/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/microsoft-office-skills-mastering-excel-word-powerpoint-it-cyber-security-2/">Microsoft
                   Office Skills: Mastering Excel, Word, PowerPoint, IT, & Cyber Security</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1234,9 +1231,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£25.00 <del>£299.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1257,23 +1254,23 @@
             <!-- #2 best selling course card end  -->
 
             <!-- #3 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/09/Sage-50-Accounts.jpg" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
-                  <a href="https://cambridgeopenacademy.com/course/sage-50-accounts-3/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/sage-50-accounts-3/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/sage-50-accounts-3/">Sage 50
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/sage-50-accounts-3/">Sage 50
                   Accounts</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1293,9 +1290,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1316,23 +1313,23 @@
             <!-- #3 best selling course card end  -->
 
             <!-- #4 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img src="https://cambridgeopenacademy.com/wp-content/uploads/2023/09/Car-Mechanic.jpg" alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev..</a>
-                  <a href="https://cambridgeopenacademy.com/course/car-mechanic-training/" class="a2n_bs-btn"><i
+                  <a href="https://cambridgeopenacademy.com/course/car-mechanic-training/" class="dis-bs-btn"><i
                       aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading" href="https://cambridgeopenacademy.com/course/car-mechanic-training/">Car
+                <a class="dis-heading" href="https://cambridgeopenacademy.com/course/car-mechanic-training/">Car
                   Mechanic Training</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1352,9 +1349,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1375,25 +1372,25 @@
             <!-- #4 best selling course card end  -->
 
             <!-- #5 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Teaching">
+            <div class="dis-bs-card" data-category="Teaching">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/09/oil-engineer-with-laptop-standing-oil-rig-making-notes-his-computer-2048x1367.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/technology/">Technology</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/teaching-education/">Teaching</a>
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/technology/">Technology</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/teaching-education/">Teaching</a>
                   <a href="https://cambridgeopenacademy.com/course/drilling-rig-system-and-drilling-process-in-petroleum-engineering/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/drilling-rig-system-and-drilling-process-in-petroleum-engineering/">Drilling
                   Rig System and Drilling Process in Petroleum Engineering</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1413,9 +1410,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1436,27 +1433,27 @@
             <!-- #5 best selling course card end  -->
 
             <!-- #6 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/Advanced-Diploma-in-PHP-Web-Development-with-MySQL-GitHub-Heroku.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/it-software/">IT</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/it-software/">IT</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev.</a>
                   <a href="https://cambridgeopenacademy.com/course/advanced-diploma-in-php-web-development-with-mysql-github-heroku-2/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/advanced-diploma-in-php-web-development-with-mysql-github-heroku-2/">Advanced
                   Diploma in PHP Web Development with MySQL, GitHub & Heroku</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1476,9 +1473,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1499,25 +1496,25 @@
             <!-- #6 best selling course card end  -->
 
             <!-- #7 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2019/07/HR-and-Payroll-Administrator-Course.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/accounting/">Accounting &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/accounting/">Accounting &
                     Finance</a>
                   <a href="https://cambridgeopenacademy.com/course/hr-and-payroll-administrator-course-2/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/hr-and-payroll-administrator-course-2/">HR and Payroll
                   Administrator Course</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1537,9 +1534,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1560,25 +1557,25 @@
             <!-- #7 best selling course card end  -->
 
             <!-- #8 best selling course card start -->
-            <div class="a2n_bs-card" data-category="Leadership">
+            <div class="dis-bs-card" data-category="Leadership">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/10/Effective-Presentation-Public-Speaking-Essentials.jpg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/leadership/">Leadership &
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/leadership/">Leadership &
                     Management</a>
                   <a href="https://cambridgeopenacademy.com/course/effective-presentation-public-speaking-essentials/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/effective-presentation-public-speaking-essentials/">HR
                   and Payroll Administrator Course</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1598,9 +1595,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1621,27 +1618,27 @@
             <!-- #8 best selling course card end  -->
 
             <!-- #9 best selling course card start  -->
-            <div class="a2n_bs-card" data-category="Personal Development">
+            <div class="dis-bs-card" data-category="Personal Development">
               <img src="https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Layer_1-3-1.png" alt=""
-                class="a2n_offer-img" />
-              <div class="a2n_image_sec">
+                class="dis-offer-img" />
+              <div class="dis-image_sec">
                 <img
                   src="https://cambridgeopenacademy.com/wp-content/uploads/2023/12/CompTIA-CySA-Cybersecurity-Analyst-CS0-002.jpeg"
                   alt="" />
               </div>
-              <div class="a2n_content_sec">
-                <div class="a2n_cat-items">
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/it-software/">IT</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
-                  <a class="a2n_cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
+              <div class="dis-content_sec">
+                <div class="dis-cat-items">
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/it-software/">IT</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/employability/">Employability</a>
+                  <a class="dis-cat" href="https://cambridgeopenacademy.com/course-cat/personal-development/">Personal
                     Dev.</a>
                   <a href="https://cambridgeopenacademy.com/course/comptia-cysa-cybersecurity-analyst-cs0-002/"
-                    class="a2n_bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                    class="dis-bs-btn"><i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                 </div>
-                <a class="a2n_heading"
+                <a class="dis-heading"
                   href="https://cambridgeopenacademy.com/course/comptia-cysa-cybersecurity-analyst-cs0-002/">CompTIA
                   CySA+ Cybersecurity Analyst (CS0-002)</a>
-                <div class="a2n_rating_sec">
+                <div class="dis-rating_sec">
                   <p>5.0</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="78" height="13" viewBox="0 0 78 13" fill="none">
                     <path
@@ -1661,9 +1658,9 @@
                       fill="#FFC34F" />
                   </svg>
                 </div>
-                <div class="a2n_footer_content">
+                <div class="dis-footer_content">
                   <h4>£99.00 <del>£425.00</del></h4>
-                  <div class="a2n_member">
+                  <div class="dis-member">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                       <g clip-path="url(#clip0_1201_1134)">
                         <path
@@ -1699,7 +1696,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const tabContents = document.querySelectorAll(
-        ".a2n_tab-container .a2n_bs-card"
+        ".dis-tab-container .dis-bs-card"
       );
       function filterTabsByCategory(category) {
         tabContents.forEach((tabContent) => {
@@ -1714,12 +1711,12 @@
         });
       }
       document
-        .getElementById("a2n_cat")
+        .getElementById("dis-cat")
         .addEventListener("change", function () {
           const selectedCategory = this.value;
           filterTabsByCategory(selectedCategory);
         });
-      const initialCategory = document.getElementById("a2n_cat").value;
+      const initialCategory = document.getElementById("dis-cat").value;
       filterTabsByCategory(initialCategory);
     });
   </script>
@@ -1727,7 +1724,7 @@
   <!-- <script>
       document.addEventListener("DOMContentLoaded", function () {
         const tabContents = document.querySelectorAll(
-          ".a2n_tab-container .a2n_bs-card"
+          ".dis-tab-container .dis-bs-card"
         );
 
         function filterTabsByCategory(category) {
@@ -1745,11 +1742,11 @@
           });
 
           if (!found) {
-            document.querySelector(".a2n_tab-sec .tab-pane").innerHTML =
+            document.querySelector(".dis-tab-sec .tab-pane").innerHTML =
               '<p class="not-found">Not found</p>';
           } else {
             const notFoundElement = document.querySelector(
-              ".a2n_tab-sec .tab-pane .not-found"
+              ".dis-tab-sec .tab-pane .not-found"
             );
             if (notFoundElement) {
               notFoundElement.remove();
@@ -1758,7 +1755,7 @@
         }
 
         document
-          .getElementById("a2n_cat")
+          .getElementById("dis-cat")
           .addEventListener("change", function () {
             const selectedCategory = this.value;
             filterTabsByCategory(selectedCategory);

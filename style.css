@@ -7,7 +7,7 @@
 }
 
 /* best selling courses css start  */
-.a2n_bs-card {
+.dis-bs-card {
   position: relative;
   max-width: 370px;
   width: 100%;
@@ -22,7 +22,7 @@
   transition: all 0.3s ease;
 }
 
-.a2n_bs-card .a2n_heading {
+.dis-bs-card .dis-heading {
   text-decoration: none;
   margin-top: 10px;
   color: #373737;
@@ -38,7 +38,7 @@
   -webkit-box-orient: vertical;
 }
 
-.a2n_bs-card .a2n_cat {
+.dis-bs-card .dis-cat {
   margin: 0;
   border-radius: 5px;
   padding: 6px;
@@ -52,14 +52,14 @@
   transition: all 0.3s ease;
 }
 
-.a2n_bs-card .a2n_rating_sec {
+.dis-bs-card .dis-rating_sec {
   display: flex;
   align-items: center;
   column-gap: 7px;
   margin: 10px 0;
 }
 
-.a2n_bs-card .a2n_rating_sec p {
+.dis-bs-card .dis-rating_sec p {
   margin: 0;
   color: #373737;
   font-family: "Open Sans";
@@ -67,14 +67,14 @@
   font-weight: 600;
 }
 
-.a2n_bs-card .a2n_footer_content {
+.dis-bs-card .dis-footer_content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: 7px;
 }
 
-.a2n_bs-card .a2n_footer_content h4 {
+.dis-bs-card .dis-footer_content h4 {
   margin: 0;
   color: #1170c0;
   font-family: "Open Sans";
@@ -82,19 +82,19 @@
   font-weight: 700;
 }
 
-.a2n_bs-card .a2n_footer_content h4 del {
+.dis-bs-card .dis-footer_content h4 del {
   color: rgba(17, 112, 192, 0.3);
   font-size: 12px;
   font-weight: 500;
 }
 
-.a2n_bs-card .a2n_member {
+.dis-bs-card .dis-member {
   display: flex;
   align-items: center;
   column-gap: 4px;
 }
 
-.a2n_bs-card .a2n_member p {
+.dis-bs-card .dis-member p {
   margin: 0;
   color: #3f3b52;
   font-family: "Open Sans";
@@ -104,24 +104,24 @@
   text-transform: capitalize;
 }
 
-.a2n_content_sec {
+.dis-content_sec {
   width: 65%;
 }
 
-.a2n_image_sec {
+.dis-image_sec {
   width: 35%;
   height: 100%;
   overflow: hidden;
 }
 
-.a2n_image_sec img {
+.dis-image_sec img {
   width: 100%;
   height: 100%;
   border-radius: 3px;
   object-fit: cover;
 }
 
-.a2n_offer-img {
+.dis-offer-img {
   position: absolute;
   top: -1px;
   left: -1px;
@@ -129,12 +129,12 @@
   height: 72px !important;
 }
 
-.a2n_cat-items {
+.dis-cat-items {
   display: flex;
   gap: 4px;
 }
 
-.a2n_bs-btn {
+.dis-bs-btn {
   position: absolute;
   top: 6px;
   right: 6px;
@@ -149,25 +149,25 @@
   transition: all 0.3s ease;
 }
 
-.a2n_bs-card:hover {
+.dis-bs-card:hover {
   background: #f0f9ff;
 }
 
-.a2n_bs-card:hover .a2n_cat {
+.dis-bs-card:hover .dis-cat {
   background: #c9e9ff;
 }
 
-.a2n_bs-card:hover .a2n_bs-btn {
+.dis-bs-card:hover .dis-bs-btn {
   display: flex;
 }
 
-.a2n_cat:hover {
+.dis-cat:hover {
   text-decoration: underline;
 }
 
 /* best selling courses css end  */
 /* best selling tab section start  */
-.a2n_tab-container {
+.dis-tab-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -175,24 +175,24 @@
   margin-top: 40px;
 }
 
-.a2n_tab-nav {
+.dis-tab-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   align-items: center;
 }
 
-.a2n_tab-cat {
+.dis-tab-cat {
   display: flex;
   gap: 16px;
   align-items: center;
 }
 
-.a2n_tab-nav .nav-tabs {
+.dis-tab-nav .nav-tabs {
   border: 0;
 }
 
-.a2n_tab-nav .a2n_tc-title {
+.dis-tab-nav .dis-tc-title {
   margin: 0;
   color: #3f3b52;
   font-family: "Open Sans";
@@ -203,7 +203,7 @@
   text-transform: capitalize;
 }
 
-.a2n_tab-nav select#a2n_cat {
+.dis-tab-nav select#dis-cat {
   cursor: pointer;
   height: 52px;
   padding: 0px 30px 0 20px;
@@ -223,7 +223,7 @@
   background-size: auto 14px;
 }
 
-.a2n_tab-header .nav-tabs>li>a {
+.dis-tab-header .nav-tabs>li>a {
   margin-right: 16px;
   padding: 0;
   border-radius: 7px;
@@ -242,9 +242,9 @@
   justify-content: center;
 }
 
-.a2n_tab-header .nav-tabs>li.active>a,
-.a2n_tab-header .nav-tabs>li.active>a:focus,
-.a2n_tab-header .nav-tabs>li.active>a:hover {
+.dis-tab-header .nav-tabs>li.active>a,
+.dis-tab-header .nav-tabs>li.active>a:focus,
+.dis-tab-header .nav-tabs>li.active>a:hover {
   border: 0;
   cursor: pointer;
   color: #fff;
@@ -252,12 +252,12 @@
   background: linear-gradient(180deg, #0281ee -19.23%, #005195 122.12%);
 }
 
-.a2n_tab-header .nav-tabs>li:last-child>a {
+.dis-tab-header .nav-tabs>li:last-child>a {
   margin: 0;
 }
 
 @media (max-width: 1145px) {
-  .a2n_tab-container {
+  .dis-tab-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -266,7 +266,7 @@
 }
 
 @media (max-width: 767px) {
-  .a2n_tab-header .nav-tabs>li>a {
+  .dis-tab-header .nav-tabs>li>a {
     margin-right: 8px;
     font-size: 12px;
     padding: 0 8px;
@@ -275,16 +275,16 @@
     white-space: nowrap;
   }
 
-  .a2n_tab-nav .nav-tabs {
+  .dis-tab-nav .nav-tabs {
     display: flex;
     align-items: center;
   }
 
-  .a2n_tab-nav .a2n_tc-title {
+  .dis-tab-nav .dis-tc-title {
     font-size: 14px;
   }
 
-  .a2n_tab-nav select#a2n_cat {
+  .dis-tab-nav select#dis-cat {
     font-size: 12px;
     padding: 0 8px;
     height: 32px;
@@ -292,24 +292,24 @@
 }
 
 @media (max-width: 376px) {
-  .a2n_bs-card {
+  .dis-bs-card {
     padding: 6px;
   }
 
-  .a2n_bs-card .a2n_cat {
+  .dis-bs-card .dis-cat {
     padding: 4px;
     font-size: 10px;
   }
 
-  .a2n_bs-card .a2n_heading {
+  .dis-bs-card .dis-heading {
     margin-top: 8px;
   }
 
-  .a2n_bs-card .a2n_rating_sec {
+  .dis-bs-card .dis-rating_sec {
     margin: 8px 0;
   }
 
-  .a2n_bs-card .a2n_footer_content h4 {
+  .dis-bs-card .dis-footer_content h4 {
     font-size: 16px;
   }
 }
