@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-/* best selling courses css start  */
 .dis-bs-card {
   max-width: 370px;
   width: 100%;
@@ -112,15 +111,8 @@
   padding: 15px 25px 25px 25px;
 }
 
-.dis-bs-card .dis-image_sec {
-  overflow: hidden;
-}
-
 .dis-bs-card .dis-image_sec img {
   width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  object-fit: cover;
 }
 
 .dis-cat-items {
@@ -159,8 +151,6 @@
   text-decoration: underline;
 }
 
-/* best selling courses css end  */
-/* best selling tab section start  */
 .dis-tab-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -187,15 +177,47 @@
   border: 0;
 }
 
-.dis-tab-nav .dis-tc-title {
-  margin: 0;
+.dis-tab-header .nav-tabs>li>a {
+ margin: 0px 25px 15px 0px;
+  padding: 0;
+  border: 1px solid #3f3b52;
   color: #3f3b52;
   font-family: "Open Sans";
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 28px;
   text-transform: capitalize;
+  height: 55px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.dis-tab-header .nav-tabs>li.active>a,
+.dis-tab-header .nav-tabs>li.active>a:focus,
+.dis-tab-header .nav-tabs>li.active>a:hover {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(180deg, #4F72B9 0%, #35528B 100%);
+}
+
+.dis-tab-header .nav-tabs>li:last-child>a {
+  margin: 0;
+}
+
+.dis-tab-nav .dis-tc-title {
+  margin: 0;
+  color: #2B354E;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .dis-tab-nav select#dis-cat {
@@ -217,96 +239,3 @@
   background-position: 95% 50%;
   background-size: auto 14px;
 }
-
-.dis-tab-header .nav-tabs>li>a {
-  margin-right: 16px;
-  padding: 0;
-  border-radius: 7px;
-  border: 1px solid #3f3b52;
-  color: #3f3b52;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  text-transform: capitalize;
-  padding: 0 20px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.dis-tab-header .nav-tabs>li.active>a,
-.dis-tab-header .nav-tabs>li.active>a:focus,
-.dis-tab-header .nav-tabs>li.active>a:hover {
-  border: 0;
-  cursor: pointer;
-  color: #fff;
-  border-radius: 7px;
-  background: linear-gradient(180deg, #0281ee -19.23%, #005195 122.12%);
-}
-
-.dis-tab-header .nav-tabs>li:last-child>a {
-  margin: 0;
-}
-
-@media (max-width: 1145px) {
-  .dis-tab-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 767px) {
-  .dis-tab-header .nav-tabs>li>a {
-    margin-right: 8px;
-    font-size: 12px;
-    padding: 0 8px;
-    height: 32px;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
-  .dis-tab-nav .nav-tabs {
-    display: flex;
-    align-items: center;
-  }
-
-  .dis-tab-nav .dis-tc-title {
-    font-size: 14px;
-  }
-
-  .dis-tab-nav select#dis-cat {
-    font-size: 12px;
-    padding: 0 8px;
-    height: 32px;
-  }
-}
-
-@media (max-width: 376px) {
-  .dis-bs-card {
-    padding: 6px;
-  }
-
-  .dis-bs-card .dis-cat {
-    padding: 4px;
-    font-size: 10px;
-  }
-
-  .dis-bs-card .dis-heading {
-    margin-top: 8px;
-  }
-
-  .dis-bs-card .dis-rating_sec {
-    margin: 8px 0;
-  }
-
-  .dis-bs-card .dis-footer_content h4 {
-    font-size: 16px;
-  }
-}
-
-/* best selling tab section end  */

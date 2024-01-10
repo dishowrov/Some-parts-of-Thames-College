@@ -1,0 +1,60 @@
+/* ```````````````````` Medeia Queries started ```````````````````` */
+@media (max-width: 991.98px) {
+    .dis-tab-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dis-tab-header .nav-tabs>li>a {
+        font-size: 18px;
+        height: 45px;
+        width: 145px;
+    }
+
+    .dis-tab-nav select#dis-cat {
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .dis-bs-card .dis-cat {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dis-bs-card .dis-content_sec {
+        padding: 5px 15px 10px 15px;
+    }
+}
+
+@media (min-width: 576.01px) and (max-width: 991.98px) {
+    .dis-bs-card {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 376px) {
+    .dis-bs-card {
+        padding: 6px;
+    }
+
+    .dis-bs-card .dis-cat {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .dis-bs-card .dis-heading {
+        margin-top: 8px;
+    }
+
+    .dis-bs-card .dis-rating_sec {
+        margin: 8px 0;
+    }
+
+    .dis-bs-card .dis-footer_content h4 {
+        font-size: 16px;
+    }
+}
+/* ```````````````````` Medeia Queries ended ```````````````````` */
