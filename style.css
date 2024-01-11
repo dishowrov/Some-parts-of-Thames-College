@@ -418,10 +418,25 @@
   -o-border-radius: 15px;
 }
 
+.dis-career-slider .dis-career-slider-item-thumbnail {
+  position: relative;
+}
+
+.dis-career-slider .dis-career-slider-item-thumbnail .dis-thumbnail-offer {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
 .dis-career-slider .dis-career-slider-item-details {
   padding: 25px;
 }
 
 .dis-career-slider h3 {
   margin: 0;
+  color: #373737;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
 }
