@@ -407,7 +407,7 @@
   margin: 15px;
 }
 
-.dis-career-slider  .dis-career-slider-items {
+.dis-career-slider .dis-career-slider-items {
   border: 1px solid #C8D0EE;
   background: #FFF;
   box-shadow: 0px 10px 50px 0px rgba(35, 28, 79, 0.10);
@@ -416,4 +416,12 @@
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.dis-career-slider .dis-career-slider-item-details {
+  padding: 25px;
+}
+
+.dis-career-slider h3 {
+  margin: 0;
 }
