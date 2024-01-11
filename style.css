@@ -444,6 +444,74 @@
 .dis-career-slider .dis-career-slider-middle {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.dis-career-slider .
+.dis-career-slider .dis-career-slider-middle h6 {
+  color: #1170C0;
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.dis-career-slider .dis-career-slider-student {
+  color: #3F3B52;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dis-career-slider .dis-career-slider-btns {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.dis-career-slider .dis-career-slider-btn {
+  width: 50%;
+  height: 50px;
+}
+
+.dis-career-slider .dis-career-slider-btn a {
+  text-decoration: none;
+  color: #35528B;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #35528B;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px; 
+  -o-border-radius: 10px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.dis-career-slider .dis-slider-btn1 a {
+  color: #35528B;
+  background-color: #fff;
+}
+
+.dis-career-slider .dis-slider-btn1 a:hover {
+  color: #FFFFFF;
+  background-color: #35528B;
+}
+
+.dis-career-slider .dis-slider-btn2 a {
+  color: #FFFFFF;
+  background-color: #35528B;
+}
+
+.dis-career-slider .dis-slider-btn2 a:hover {
+  color: #35528B;
+  background-color: #FFFFFF;
+}
