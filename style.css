@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.dis-tab-sec {
+  display: none;
+}
+
 
 .dis-bs-card {
   max-width: 370px;
@@ -247,7 +251,7 @@
   }
 
   .dis-tab-header .nav-tabs>li>a {
-    margin: 0px;
+    margin: 0px 5px;
   }
 
   .dis-tab-nav .nav-tabs {
@@ -255,8 +259,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-}
+    gap: 15px 0;
+  }
 }
 
 
@@ -463,7 +467,7 @@
   font-weight: 700;
   line-height: 28px;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   height: 85px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -478,7 +482,7 @@
 
 .dis-career-slider .dis-career-slider-middle h6 {
   color: #1170C0;
-  font-family: Nunito Sans; 
+  font-family: Nunito Sans;
   font-size: 32px;
   font-weight: 700;
 }
