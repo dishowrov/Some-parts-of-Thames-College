@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-.dis-tab-sec {
+/* .dis-tab-sec {
   display: none;
-}
+} */
 
 
 .dis-bs-card {
@@ -116,8 +116,19 @@
   padding: 15px 25px 25px 25px;
 }
 
+.dis-bs-card .dis-image_sec {
+  height: 205px;
+}
+
 .dis-bs-card .dis-image_sec img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
+  -o-border-radius: 15px 15px 0 0;
 }
 
 .dis-cat-items {
