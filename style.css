@@ -241,6 +241,12 @@
   background-size: auto 14px;
 }
 
+@media (max-width: 991px) {
+  .dis-tab-nav {
+    justify-content: center;
+  }
+}
+
 
 /* Hero search part */
 .dis-hero-search {
