@@ -245,7 +245,21 @@
   .dis-tab-nav {
     justify-content: center;
   }
+
+  .dis-tab-header .nav-tabs>li>a {
+    margin: 0px;
+  }
+
+  .dis-tab-nav .nav-tabs {
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
+}
+
+
 
 
 /* Hero search part */
