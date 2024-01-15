@@ -94,4 +94,15 @@
     }
 }
 
+@media only screen and (max-width: 325px) {
+    .dis-search-part input[type=text]::placeholder {
+        font-size: 15px;
+    }
+
+    .dis-search-part button {
+        font-size: 15px;
+        width: 95px;
+    }
+}
+
 /* ```````````````````` Medeia Queries ended ```````````````````` */
