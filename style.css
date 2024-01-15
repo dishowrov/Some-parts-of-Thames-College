@@ -340,13 +340,14 @@
 /* Another Search Part */
 
 .dis-search-part {
-  margin: 25px;
   max-width: 570px;
   height: 60px;
   border: 2px solid #6F8DCD;
   display: flex;
-  align-items: center;
+  align-items: center !important;
   column-gap: 15px;
+  padding: 9px;
+  background-color: #FFFFFF;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -356,10 +357,17 @@
 
 .dis-search-part input[type=text] {
   background-color: transparent;
-  border: none;
+  border: none !important;
   outline: none;
-  height: 100%;
-  width: 100%;
+  padding: 0 !important;
+  margin-bottom: 10px;
+}
+
+.dis-search-part input[type=text]::placeholder {
+  color: #6C778A;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .dis-search-part button {
