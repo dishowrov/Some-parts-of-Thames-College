@@ -48,11 +48,11 @@
 
           <div class="dis-tab-cat">
             <h3 class="dis-tc-title">Category:</h3>
-            <select id="dis-cat" class="form-control">
-              <option>All</option>
-              <option>Personal Development</option>
-              <option>Employability</option>
-              <option>Health and Fitness</option>
+            <select id="dis-cat" class="form-control" onchange="redirectToPage(this)">
+              <option value="https://thamescollege.org/courses/">All</option>
+              <option value="https://thamescollege.org/course-cat/personal-development/">Personal Development</option>
+              <option value="https://thamescollege.org/course-cat/employability/">Employability</option>
+              <option value="https://thamescollege.org/course-cat/health-fitness/">Health and Fitness</option>
             </select>
           </div>
         </div>
@@ -1041,47 +1041,6 @@
   <!-- Custom JS -->
   <script src="./custom.js"></script>
 
-  <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const tabContents = document.querySelectorAll(
-          ".dis-tab-container .dis-bs-card"
-        );
-
-        function filterTabsByCategory(category) {
-          let found = false;
-          tabContents.forEach((tabContent) => {
-            if (
-              tabContent.getAttribute("data-category") === category ||
-              category === "All"
-            ) {
-              tabContent.style.display = "flex";
-              found = true;
-            } else {
-              tabContent.style.display = "none";
-            }
-          });
-
-          if (!found) {
-            document.querySelector(".dis-tab-sec .tab-pane").innerHTML =
-              '<p class="not-found">Not found</p>';
-          } else {
-            const notFoundElement = document.querySelector(
-              ".dis-tab-sec .tab-pane .not-found"
-            );
-            if (notFoundElement) {
-              notFoundElement.remove();
-            }
-          }
-        }
-
-        document
-          .getElementById("dis-cat")
-          .addEventListener("change", function () {
-            const selectedCategory = this.value;
-            filterTabsByCategory(selectedCategory);
-          });
-      });
-    </script> -->
 </body>
 
 </html>
